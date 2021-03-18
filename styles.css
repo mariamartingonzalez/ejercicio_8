@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(104, 104, 236);
+    margin: 0px;
+}
+
+.container-header {
+    display: flex;
+    justify-content:space-between;    
+    width: 100%;
+    max-width: 600px;
+    background-color: rgb(176, 176, 240);
+}
+
+.container-main {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 600px;
+    background-color: rgb(225, 248, 143);
+}
+
+.author {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(233, 165, 224);
+}
+
+.container-text {
+    background-color: lightgrey;
+}
+
+.container-footer {
+    background-color: rgb(243, 185, 97);
+}
+
+.social {
+    background-color: rgb(131, 218, 167);
+}
